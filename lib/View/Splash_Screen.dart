@@ -18,16 +18,18 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
       vsync: this)..repeat();
   @override
   void dispose(){
-    super.dispose();
     _controller.dispose();
+    super.dispose();
   }
   void initState() {
     // TODO: implement initState
     super.initState();
     Timer(Duration(seconds: 5),
-            ()=>Navigator.push(context, MaterialPageRoute(builder: (Context)=>WorldStateScreen()))
-    );
+            ()=>Navigator.pushReplacement(context, MaterialPageRoute(builder: (Context)=>WorldStateScreen()))
+        // ()=> Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context)=>WorldStateScreen()),
+        //         (route) => false)
 
+    );
   }
   @override
   Widget build(BuildContext context) {

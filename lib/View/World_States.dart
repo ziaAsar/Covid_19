@@ -34,6 +34,7 @@ class _WorldStateScreenState extends State<WorldStateScreen> with TickerProvider
         child: Padding(
           padding: const EdgeInsets.all(15.0),
           child: SingleChildScrollView(
+              keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
             child: Column(
               children: [
                 SizedBox(
@@ -51,7 +52,7 @@ class _WorldStateScreenState extends State<WorldStateScreen> with TickerProvider
                         controller: _controller,
                       ),
                     );
-                  }else{
+                  }else {
                     return Column(
                       children: [
                         PieChart(
