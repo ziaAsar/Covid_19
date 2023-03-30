@@ -52,7 +52,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                    legendTextStyle: TextStyle(fontWeight: FontWeight.bold),
                  ),
                  animationDuration: Duration(
-                   seconds: 4
+                   seconds: 5
                  ),
                  colorList: colors.colorList,
                  dataMap: {
