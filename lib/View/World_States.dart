@@ -15,13 +15,14 @@ class WorldStateScreen extends StatefulWidget {
 }
 
 class _WorldStateScreenState extends State<WorldStateScreen> with TickerProviderStateMixin{
-  late final AnimationController _controller =AnimationController(
+   late final AnimationController _controller =AnimationController(
       duration: Duration(seconds: 3),
       vsync: this)..repeat();
+
   @override
   void dispose(){
-    super.dispose();
     _controller.dispose();
+    super.dispose();
   }
 
 
@@ -71,7 +72,7 @@ class _WorldStateScreenState extends State<WorldStateScreen> with TickerProvider
                             legendPosition: LegendPosition.left,
                           ),
                           animationDuration: Duration(
-                            seconds: 7,
+                            seconds: 4,
                           ),
                           chartType: ChartType.disc,
                           colorList: colors.colorList,
@@ -97,7 +98,7 @@ class _WorldStateScreenState extends State<WorldStateScreen> with TickerProvider
                         ),
                         GestureDetector(
                           onTap: (){
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>CountriesList()));
+                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>CountriesList()));
                           },
                           child: Container(
                             height: 55,

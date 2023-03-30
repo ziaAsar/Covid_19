@@ -24,7 +24,8 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
   void initState() {
     // TODO: implement initState
     super.initState();
-    Timer(Duration(seconds: 5),
+    //dispose();
+    Timer(Duration(seconds: 4),
             ()=>Navigator.pushReplacement(context, MaterialPageRoute(builder: (Context)=>WorldStateScreen()))
         // ()=> Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context)=>WorldStateScreen()),
         //         (route) => false)
