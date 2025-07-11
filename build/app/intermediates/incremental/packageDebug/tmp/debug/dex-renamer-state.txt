@@ -1,4 +1,13 @@
-#Thu Mar 30 06:07:26 PDT 2023
-base.0=F\:\\Flutter Project\\Covid_19\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
+#Thu Jul 10 00:33:51 PDT 2025
+base.0=F\:\\Flutter Project\\Covid_19\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=F\:\\Flutter Project\\Covid_19\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=F\:\\Flutter Project\\Covid_19\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=F\:\\Flutter Project\\Covid_19\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
 path.0=classes.dex
+path.1=0/classes.dex
+path.2=10/classes.dex
+path.3=1/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

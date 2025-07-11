@@ -29,7 +29,9 @@ class _DetailsScreenState extends State<DetailsScreen> {
   Widget build(BuildContext context) {
     AllColors colors=AllColors();
     return Scaffold(
+        backgroundColor:Color(0xff041b41),
       appBar: AppBar(
+        backgroundColor:Color(0xff041b41),
         title: Text(widget.name),
         centerTitle: true,
       ),

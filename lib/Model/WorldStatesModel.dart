@@ -20,28 +20,30 @@
 /// criticalPerOneMillion : 5.44
 /// affectedCountries : 231
 
+
+import 'dart:convert';
 class WorldStatesModel {
-  WorldStatesModel({
-      num? updated, 
-      num? cases, 
-      num? todayCases, 
-      num? deaths, 
-      num? todayDeaths, 
-      num? recovered, 
-      num? todayRecovered, 
-      num? active, 
-      num? critical, 
-      num? casesPerOneMillion, 
-      num? deathsPerOneMillion, 
-      num? tests, 
-      num? testsPerOneMillion, 
-      num? population, 
-      num? oneCasePerPeople, 
-      num? oneDeathPerPeople, 
-      num? oneTestPerPeople, 
-      num? activePerOneMillion, 
-      num? recoveredPerOneMillion, 
-      num? criticalPerOneMillion, 
+  WorldStatesModel( {
+      num? updated,
+      num? cases,
+      num? todayCases,
+      num? deaths,
+      num? todayDeaths,
+      num? recovered,
+      num? todayRecovered,
+      num? active,
+      num? critical,
+      num? casesPerOneMillion,
+      num? deathsPerOneMillion,
+      num? tests,
+      num? testsPerOneMillion,
+      num? population,
+      num? oneCasePerPeople,
+      num? oneDeathPerPeople,
+      num? oneTestPerPeople,
+      num? activePerOneMillion,
+      num? recoveredPerOneMillion,
+      num? criticalPerOneMillion,
       num? affectedCountries,}){
     _updated = updated;
     _cases = cases;
@@ -202,3 +204,5 @@ WorldStatesModel copyWith({  num? updated,
   }
 
 }
+
+

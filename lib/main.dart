@@ -1,5 +1,6 @@
 import 'package:covid_19/View/World_States.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import 'View/Splash_Screen.dart';
 import 'View/countries.dart';
@@ -14,9 +15,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
       theme: ThemeData(
         brightness: Brightness.dark,
         primarySwatch: Colors.blue,
